@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lobster&display=swap');
+
+
+#logout{
+    font-size: 20px; 
+	float: right;
+}
+
+#image{
+    height: 100px;
+    width: 100;
+}
+
+.header{
+    margin-top: 80px;
+    margin-left: 50;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background: url(vector-seamless-mobile-apps-pattern-260nw-283356059.jpg);
+}
+
+#welcome_user_name{
+    font-family: 'Abel', sans-serif;
+
+}
+
+#room_name{
+    font-family: 'Abel', sans-serif;
+
+}
+
+.trending_rooms{
+    font-family: 'Abel', sans-serif;
+}

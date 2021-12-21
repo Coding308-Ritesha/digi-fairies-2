@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Digi Room</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+  <script src="kwitter_room.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <button id="logout" onclick="logOut();" class="btn btn-info btn-lg">
+                <span class="glyphicon glyphicon-log-out"></span> Log out
+              </button>
+
+              <center>
+                  <div> <h1 id="heading_df" class="header"> Chat App
+                    <sup>
+                        <img id="image" src="m2.png">
+                    </sup>
+                </h1>
+            </div>
+
+                <h2 class="color_white" id="welcome_user_name"><b>Welcome!</b></h2>
+                <div class="form-group">
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control" placeholder="#Room Name" style="color: rgb(71, 27, 82);">
+                </div>
+                
+                <button class="btn btn-primary" onclick="addroom()" style="background-color: rgb(16, 83, 50); border-radius: 20px; color: rgb(241, 245, 218);">#Add Room</button>
+                <br><br>
+                <h3 class="trending_rooms"><b>#TRENDINGROOMS</b></h3>
+                <div id="output"></div>
+              </center>
+        </div>
+
+    </body>
+</html>
